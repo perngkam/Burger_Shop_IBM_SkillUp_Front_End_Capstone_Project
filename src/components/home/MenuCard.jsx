@@ -22,7 +22,7 @@ const MenuCard = ({ itemNum, burgerSrc, price, title, handler, delay = 0 }) => {
       <main>
         <img src={burgerSrc} alt={itemNum} />
 
-        <h5>₹{price}</h5>
+        <h5>€{price}</h5>
 
         <p>{title}</p>
         <Popup trigger=
