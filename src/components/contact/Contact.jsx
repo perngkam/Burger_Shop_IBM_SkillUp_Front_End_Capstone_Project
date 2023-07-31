@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import burger from "../../assets/burger2.png";
+import burger1 from "../../assets/burger1.png";
+import burger2 from "../../assets/burger2.png";
+import burger3 from "../../assets/burger3.png";
 import Popup from 'reactjs-popup';
 
 const Contact = () => {
@@ -52,7 +54,37 @@ const Contact = () => {
           }}
           transition={{ delay: 1 }}
         >
-          <img src={burger} alt="Burger" />
+          <img src={burger1} alt="Burger1" />
+        </motion.div>
+        <motion.div
+          initial={{
+            y: "-100vh",
+            x: "50%",
+            opacity: 0,
+          }}
+          animate={{
+            x: "50%",
+            y: "-50%",
+            opacity: 1,
+          }}
+          transition={{ delay: 2 }}
+        >
+          <img src={burger2} alt="Burger2" />
+        </motion.div>
+        <motion.div
+          initial={{
+            y: "-100vh",
+            x: "50%",
+            opacity: 0,
+          }}
+          animate={{
+            x: "50%",
+            y: "-50%",
+            opacity: 1,
+          }}
+          transition={{ delay: 3 }}
+        >
+          <img src={burger3} alt="Burger3" />
         </motion.div>
       </motion.div>
     </section>

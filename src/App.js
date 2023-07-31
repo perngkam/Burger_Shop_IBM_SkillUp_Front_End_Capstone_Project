@@ -13,7 +13,7 @@ import MyOrders from "./components/myOrders/MyOrders";
 import OrderDetails from "./components/myOrders/OrderDetails";
 import About from "./components/about/About";
 
-
+//Styling
 import "./styles/app.scss";
 import "./styles/header.scss";
 import "./styles/home.scss";

@@ -25,8 +25,8 @@ const MyOrders = () => {
               <tr key={i}>
                 <td>1</td>
                 <td>Processing</td>
-                <td>23</td>
-                <td>₹{2132}</td>
+                <td>30</td>
+                <td>€{900}</td>
                 <td>COD</td>
                 <td>
                 <Link to={`/order/${"1"}`}>

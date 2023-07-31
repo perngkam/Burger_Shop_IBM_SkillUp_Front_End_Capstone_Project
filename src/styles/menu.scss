@@ -3,13 +3,16 @@
 #menu {
   width: 100%;
   min-height: 100vh;
-  background-color: white;
+  background-image: url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 4rem;
 
   > h1 {
     font-size: 2rem;
     text-align: center;
     padding: 2rem;
+    color: white;
   }
 
   > div {
@@ -60,6 +63,7 @@
       color: white;
       border: none;
       padding: 1rem 2rem;
+      margin-bottom: 1rem;
       width: 100%;
       border-radius: 10px;
       cursor: pointer;

@@ -26,42 +26,42 @@ const Cart = () => {
     <section className="cart">
       <main>
         <CartItem
-          title={"Cheese Burger"}
+          title={"Double Cheese Burger"}
           img={burger1}
-          value={0}
+          value={10}
           increment={() => increment(1)}
           decrement={() => decrement(1)}
         />
         <CartItem
-          title={"Veg Cheese Burger"}
+          title={"Classic Cheese Burger"}
           img={burger2}
-          value={0}
+          value={10}
           increment={() => increment(2)}
           decrement={() => decrement(2)}
         />
         <CartItem
-          title={"Cheese Burger with French Fries"}
+          title={"Cheese & Bacon Burger"}
           img={burger3}
-          value={0}
-          increment={() => increment(3)}
+          value={10}
+          increment={(value) => increment(3)}
           decrement={() => decrement(3)}
         />
         <article>
           <div>
             <h4>Sub Total</h4>
-            <p>€{20}</p>
+            <p>€{900}</p>
           </div>
           <div>
             <h4>Tax</h4>
-            <p>€{20 * 0.18}</p>
+            <p>€{45}</p>
           </div>
           <div>
             <h4>Shipping Charges</h4>
-            <p>€{2}</p>
+            <p>€{0}</p>
           </div>
           <div>
             <h4>Total</h4>
-            <p>€{20 + 20 * 0.18 + 2}</p>
+            <p>€{900 + 45 + 0}</p>
           </div>
           <Link to="/shipping">Checkout</Link>
         </article>

@@ -2,7 +2,9 @@
 
 .about {
   width: 100%;
-  background-color: $pink;
+  background-image: url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 
   > main {
     background-color: white;
