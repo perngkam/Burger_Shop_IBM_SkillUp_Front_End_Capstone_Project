@@ -4,7 +4,7 @@
 https://burger-shop-ibm-skill-up-front-end-capstone-project.vercel.app/
 
 # Build
-Run "npm install"
+Run "npm install i"
 
 # Run Server
 Run "npm start"
