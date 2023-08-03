@@ -8,6 +8,7 @@ function DropdownMenu() {
     const navs = [
       { name: "Login", path: "/login" },
       {name:"Orders", path:"/myorders"},
+      {name:"Profile", path:"/me"},
       {name:"Logout", path:"/login"}
       
     ];
